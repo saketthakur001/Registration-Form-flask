@@ -11,8 +11,8 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-def random():
-    request.
+# def random():
+#     request.
 
 # @app.route('/read-from')
 
