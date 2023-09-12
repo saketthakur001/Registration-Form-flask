@@ -108,6 +108,10 @@ def index():
 
 
     return render_template('index.html', countries=countries, error_message=error_message)
+    return render_template('index.html')
+
+# def random():
+#     request.
 
 # @app.route('/read-from')
 if __name__ == '__main__':
